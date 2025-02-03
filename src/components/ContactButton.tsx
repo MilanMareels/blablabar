@@ -7,7 +7,7 @@ export default function ContactButton() {
         href="#contact"
         className="mt-10 w-[150px] rounded-none border-2 border-black bg-transparent text-black focus:ring-0"
       >
-        Contact us
+        Contacteer ons
       </Button>
     </div>
   );
