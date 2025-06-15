@@ -35,7 +35,7 @@ export default function FooterSection() {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between text-center sm:text-left">
-          <Footer.Copyright href="https://www.lannie.be" by="blablabar. Ontworpen en ontwikkeld door Lannie" year={new Date().getFullYear()} />
+          <Footer.Copyright href="https://www.lannie.be" by={`${companyName}. Ontworpen en ontwikkeld door Lannie`} year={new Date().getFullYear()} />
           <div className="mt-4 flex justify-center space-x-6 sm:mt-0">
             <Footer.Icon target="blank" href="https://www.instagram.com/blablabar.be?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" icon={BsInstagram} />
           </div>
