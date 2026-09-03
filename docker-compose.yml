@@ -5,7 +5,7 @@ services:
       args:
         - VITE_COMPANY_NAME=${VITE_COMPANY_NAME}
         - VITE_CONTACT_FORM_KEY=${VITE_CONTACT_FORM_KEY}
-    container_name: website-lannie
+    container_name: website-blablabar
     restart: unless-stopped
     ports:
       - "3007:80"
