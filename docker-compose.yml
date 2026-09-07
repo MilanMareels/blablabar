@@ -9,3 +9,8 @@ services:
     restart: unless-stopped
     ports:
       - "3007:80"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 512M
