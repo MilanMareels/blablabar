@@ -9,6 +9,8 @@ services:
     restart: unless-stopped
     ports:
       - "3007:80"
+    environment:
+      - NODE_OPTIONS=--max-old-space-size=480
     deploy:
       resources:
         limits:
